@@ -78,7 +78,7 @@ Logo.BackgroundTransparency = 1.000
 Logo.BorderSizePixel = 0
 Logo.Position = UDim2.new(0.00749999983, 0, 0, 0)
 Logo.Size = UDim2.new(0, 29, 0, 29)
-Logo.Image = "http://www.roblox.com/asset/?id=2530517466"
+Logo.Image = "rbxassetid://15960343185"
 
 TextLabel.Parent = MainFrame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -87,7 +87,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.32249999, 0, 0, 0)
 TextLabel.Size = UDim2.new(0, 236, 0, 30)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Synapse X - v1.6.9a"
+TextLabel.Text = "Fluxus Windows "
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 20.000
 TextLabel.TextWrapped = true
