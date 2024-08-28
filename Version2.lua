@@ -1,7 +1,5 @@
 local CoreGui = game:GetService("CoreGui")
 local TweenService = game:GetService("TweenService")
-local RunService = game:GetService("RunService")
-
 -- Create UI components
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
