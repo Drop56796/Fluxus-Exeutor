@@ -1,6 +1,21 @@
+-- 检测和删除FluxusAndroidUI
 local CoreGui = game:GetService("CoreGui")
+local fluxusUI = CoreGui:FindFirstChild("FluxusAndroidUI")
+local function removeFluxusAndroidUI()
+    if fluxusUI then
+        fluxusUI:Destroy()
+    end
+end
+
+-- 立即执行检测和删除
+removeFluxusAndroidUI()
+-- 如果之后还需要持续检测，可以使用以下代码定时检测
+-- while true do
+--     removeFluxusAndroidUI()
+--     wait(5) -- 每5秒检测一次
+-- end
 local TweenService = game:GetService("TweenService")
--- Create UI components
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
